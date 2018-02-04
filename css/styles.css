@@ -162,8 +162,8 @@ body {
   text-shadow: 5px 5px 1px #000;
 }
 .about-content p {
-  font-family: 'Source Code Pro', 600;
-  /*font-family: 'Indie Flower', cursive;*/
+  /*font-family: 'Source Code Pro', 600;*/
+  font-family: 'Indie Flower', cursive;
   color: white;
   font-size: 20px;
 }
@@ -178,8 +178,8 @@ body {
   text-align: center;
 }
 .about-content-left p {
-  font-family: 'Source Code Pro', 600;
-  /*font-family: 'Indie Flower', cursive;*/
+  /*font-family: 'Source Code Pro', 600;*/
+  font-family: 'Indie Flower', cursive;
   color: white;
   font-size: 30px;
 }
@@ -199,8 +199,8 @@ body {
   text-align: center;
 }
 .about-content-right p {
-  font-family: 'Source Code Pro', 600;
-  /*font-family: 'Indie Flower', cursive;*/
+  /*font-family: 'Source Code Pro', 600;*/
+  font-family: 'Indie Flower', cursive;
   font-size: 30px;
 }
 .about-content-right a {
