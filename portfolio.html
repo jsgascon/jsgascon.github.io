@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio-Gascon</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- javascript	 -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <!--NAVBAR wrapper-->
+  <div class="container-fluid"> <!--header container-->
+    <div class="row"> <!--header row-->
+        <nav class="navbar navbar-inverse navbar-fixed-top"> <!--NAV begins-->
+          <div class="container-fluid"> <!--container-fluid -->
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- <a href="#"><img src="img/brand.png" class="navbar-brand"></a> -->
+              <a href="https://www.linkedin.com/in/josephgascon" target="_blank" class="navbar-brand">Joseph Gascon</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="#portfolio">Portfolio<span class="sr-only">(current)</span></a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resources.html">Resources</a></li>
+              </ul>
+
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav> <!--NAV ends-->
+    </div> <!--end of header row-->
+  </div><!--end of header container-->
+
+  <!--PORTFOLIO wrapper-->
+  <a name="portfolio"></a> <!--jump to this section-->
+  <div class="container"> <!--portfolio container-->
+    <div class="row"> <!--portfolio row one-->
+      <div class="col-md-12 portfolio-content">
+        <h1>Portfolio</h1>
+        <p>A list of projects done in bootcamp courses, personal work, and other activites. For more information about a project, please read the description, the contact form, and visit the site either through the thumbnail or url link. </p>
+      </div>
+    </div> <!--end of portfolio row one-->
+    <div class="row"> <!--portfolio row two-->
+      <!--FLEX BOX-->
+      <div class="flex-container-test"> <!--flex-container-test-->
+        <div class="flex-item-test"> <!--flex-item-test one-->
+          <a href="https://jsgascon.github.io/how-to-tutorials/" target="_blank" class="thumbnail">
+            <img src="img/how-to-tutorials.png" alt="how-to-tutorials" class="img-responsive">
+          </a>
+          <div class="caption">
+            <h3>How-To-Tutorials</h3>
+            <p>This site was created for the final project of the "Websites for Beginners" course. The purpose of the site was creating walkthroughs and tutorials for various activities. Some examples are creating a game server and adding server plugins to enhance the gameplay.</p>
+            <p><a href="https://jsgascon.github.io/how-to-tutorials/" target="_blank" class="btn btn-primary" role="button">View Site</a> <a href="#contact" class="btn btn-default" role="button">More Info</a></p>
+          </div>
+        </div> <!--end of flex-item-test one-->
+        <div class="flex-item-test"> <!--flex-item-test two-->
+          <a href="https://jsgascon.github.io/pet-store/index.html" target="_blank" class="thumbnail">
+            <img src="img/pet-store-home.png" alt="pet-store-home" class="img-responsive">
+          </a>
+          <div class="caption">
+            <h3>Pet-Store-Home</h3>
+            <p>This was one of the sites created in the "Mobile-Friendly Websites" course. The purpose of this project was to recreate the site by wire framing and styling from scratch. The site is for a pet store where people can receive care and products for their pets. </p>
+            <p><a href="https://jsgascon.github.io/pet-store/index.html" target="_blank" class="btn btn-primary" role="button">View Site</a> <a href="#contact" class="btn btn-default" role="button">More Info</a></p>
+          </div>
+        </div> <!--end of flex-item-test two-->
+        <div class="flex-item-test"> <!--flex-item-test three-->
+          <a href="https://jsgascon.github.io/restaurante/" target="_blank" class="thumbnail">
+            <img src="img/restaurante.png" alt="restaurante" class="img-responsive">
+          </a>
+          <div class="caption">
+            <h3>Restaurante</h3>
+            <p>This was the other site created in the "Mobile-Friendly Websites" course. The purpose this project was to also recreate the site by wire framing and styling from scratch. The site is for a restaurant where people can view reviews, food menu, and their personal story. </p>
+            <p><a href="https://jsgascon.github.io/restaurante/" target="_blank" class="btn btn-primary" role="button">View Site</a> <a href="#contact" class="btn btn-default" role="button">More Info</a></p>
+          </div>
+        </div> <!--end of flex-item-test three-->
+        <div class="flex-item-test"> <!--flex-item-test four-->
+          <a href="#" class="thumbnail">
+            <img src="img/200x200.png" alt="...">
+          </a>
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nesciunt provident, consequuntur totam asperiores similique fuga voluptatibus. Eaque inventore, suscipit itaque, ducimus eligendi hic, explicabo deserunt accusantium unde rem commodi?</p>
+            <p><a href="#" class="btn btn-primary" role="button">View Site</a> <a href="#contact" class="btn btn-default" role="button">More Info</a></p>
+          </div>
+        </div> <!--end flex-item-test four-->
+      </div> <!--end of flex-container-test-->
+    </div> <!--end of portfolio row two-->
+  </div> <!--end of portfolio container-->
+
+  <!--
+  =======================================================================================================================================================================================================================================================================================================================================================
+  -->
+
+  <!--MEDIA wrapper-->
+  <div class="container-fluid"> <!--media container-->
+    <div class="row"> <!--media row-->
+      <div class="media-container">
+        <div class="flex-media media-links"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i> Facebook</a></div>
+        <div class="flex-media media-links"><a href="https://twitter.com/ghost0assassin" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i> Twitter</a></div>
+        <div class="flex-media media-links"><a href="https://www.youtube.com/user/JSG9990" target="_blank"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i> YouTube</a></div>
+        <div class="flex-media media-links"><a href="https://www.twitch.tv/ghost0assassin" target="_blank"><i class="fa fa-twitch fa-lg" aria-hidden="true"></i> Twitch</a></div>
+      </div>
+    </div> <!--end of media row-->
+  </div> <!--end of media container-->
+
+  <!--FOOTER wrapper-->
+  <div class="container-fluid"> <!--footer container-->
+    <div class="row"> <!--footer row-->
+      <div class="col-md-12 footer">
+        &copy;2016 Gascon, All rights reserved.
+      </div>
+    </div> <!--end of footer row-->
+  </div> <!--end of footer container-->
+
+</body>
+</html>
